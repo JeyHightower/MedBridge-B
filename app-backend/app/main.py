@@ -82,3 +82,7 @@ app.include_router(analytics.router)
 @app.get("/health")
 async def health_check():
     return {"status": "ok", "service": "medbridge-api"}
+
+@app.get("/")
+def root_check():
+    return {"status": "ok", "message": "MedBridge-B API is running"}
