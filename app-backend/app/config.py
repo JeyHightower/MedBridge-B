@@ -12,8 +12,8 @@ class Settings(BaseSettings):
     supabase_service_role_key: str = ""
     supabase_storage_bucket: str = "medical-documents"
     groq_api_key: str = ""
-    groq_model: str = "llama-3.1-8b-instant"
-    groq_vision_model: str = "qwen/qwen3.6-27b"
+    groq_model: str = "openai/gpt-oss-120b"
+    groq_vision_model: str = "qwen/qwen3.8-27b"
     app_env: str = "development"
     secret_key: str = "dev-secret-key-change-in-production"
     max_file_size_mb: int = 10
