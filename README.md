@@ -1,5 +1,8 @@
 # MedBridge — Backend
 
+free hosting, first load may take about a minute
+
+
 AI-Powered Patient Health Companion — Backend API
 
 ## Project Information
